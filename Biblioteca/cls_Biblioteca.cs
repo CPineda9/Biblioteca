@@ -44,7 +44,7 @@ namespace Biblioteca
         }
         public void Imprimir()
         {
-            foreach (var b in Libros )
+            foreach (var b in Libros )//Recorre la lista
             {
                 Console.WriteLine("                 _____Datos libro_____");
                 Console.WriteLine();
